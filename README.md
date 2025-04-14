@@ -1,4 +1,4 @@
-# download-blob
+# ⬇️ download-blob
 
 [![Build status](https://img.shields.io/github/actions/workflow/status/velut/download-blob/main.yml?branch=main)](https://github.com/velut/download-blob/actions?query=workflow%3ACI)
 [![Coverage](https://img.shields.io/codecov/c/gh/velut/download-blob)](https://codecov.io/gh/velut/download-blob)
@@ -7,15 +7,15 @@
 [![npm](https://img.shields.io/npm/v/download-blob)](https://www.npmjs.com/package/download-blob)
 [![License](https://img.shields.io/github/license/velut/download-blob)](https://github.com/velut/download-blob/blob/main/LICENSE)
 
-This package exports a single function, `downloadBlob`.
+This package exports a single function, `downloadBlob`, which can be used to download a [blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) from the browser and save it as a file.
 
-## Pros
+## Features
 
 - Simple API and usage
 - Small size (< 1KB)
 - No dependencies
 - Written in Typescript
-- Well tested and documented
+- ESM only
 
 ## API & Package Info
 
@@ -60,7 +60,14 @@ Basic usage:
 ```typescript
 import { downloadBlob } from "download-blob";
 
-// TODO:
+// Create a blob.
+let blob = new Blob(["Hello, world!"], { type: "text/plain" });
+
+// This is the name of the file to be saved.
+let name = "hello.txt";
+
+// Start the download in the browser.
+downloadBlob(blob, name);
 ```
 
 ## License
