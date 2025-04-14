@@ -1,6 +1,6 @@
 {
 	"name": "blob-dl",
-	"version": "0.0.1-dev",
+	"version": "0.0.1",
 	"description": "A simple library to download a Blob from the browser as a file.",
 	"license": "MIT",
 	"author": {
