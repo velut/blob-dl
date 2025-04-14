@@ -39,5 +39,5 @@ export function downloadBlob(blob: Blob, name: string) {
 	document.body.removeChild(a);
 	setTimeout(() => {
 		URL.revokeObjectURL(a.href);
-	}, 30 * 1000);
+	}, 30_000);
 }
