@@ -1,11 +1,11 @@
-# ⬇️ download-blob
+# ⬇️ blob-dl
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/velut/download-blob/main.yml?branch=main)](https://github.com/velut/download-blob/actions?query=workflow%3ACI)
-[![Coverage](https://img.shields.io/codecov/c/gh/velut/download-blob)](https://codecov.io/gh/velut/download-blob)
-[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/download-blob)
-![Language](https://img.shields.io/github/languages/top/velut/download-blob)
-[![npm](https://img.shields.io/npm/v/download-blob)](https://www.npmjs.com/package/download-blob)
-[![License](https://img.shields.io/github/license/velut/download-blob)](https://github.com/velut/download-blob/blob/main/LICENSE)
+[![Build status](https://img.shields.io/github/actions/workflow/status/velut/blob-dl/main.yml?branch=main)](https://github.com/velut/blob-dl/actions?query=workflow%3ACI)
+[![Coverage](https://img.shields.io/codecov/c/gh/velut/blob-dl)](https://codecov.io/gh/velut/blob-dl)
+[![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/blob-dl)
+![Language](https://img.shields.io/github/languages/top/velut/blob-dl)
+[![npm](https://img.shields.io/npm/v/blob-dl)](https://www.npmjs.com/package/blob-dl)
+[![License](https://img.shields.io/github/license/velut/blob-dl)](https://github.com/velut/blob-dl/blob/main/LICENSE)
 
 This package exports a single function, `downloadBlob`, which can be used to download a [blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) from the browser and save it as a file.
 
@@ -23,34 +23,34 @@ This package exports a single function, `downloadBlob`, which can be used to dow
 downloadBlob: (blob: Blob, name: string) => void;
 ```
 
-- Explore the API on [**jsDocs.io**](https://www.jsdocs.io/package/download-blob)
-- View package contents on [**unpkg**](https://unpkg.com/download-blob/)
-- View repository on [**GitHub**](https://github.com/velut/download-blob)
+- Explore the API on [**jsDocs.io**](https://www.jsdocs.io/package/blob-dl)
+- View package contents on [**unpkg**](https://unpkg.com/blob-dl/)
+- View repository on [**GitHub**](https://github.com/velut/blob-dl)
 
 ## Install
 
 Using `npm`:
 
 ```
-npm i download-blob
+npm i blob-dl
 ```
 
 Using `yarn`:
 
 ```
-yarn add download-blob
+yarn add blob-dl
 ```
 
 Using `pnpm`:
 
 ```
-pnpm add download-blob
+pnpm add blob-dl
 ```
 
 Using `bun`:
 
 ```
-bun add download-blob
+bun add blob-dl
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ bun add download-blob
 Basic usage:
 
 ```typescript
-import { downloadBlob } from "download-blob";
+import { downloadBlob } from "blob-dl";
 
 // Create a blob.
 let blob = new Blob(["Hello, world!"], { type: "text/plain" });

@@ -1,7 +1,7 @@
 {
-	"name": "download-blob",
+	"name": "blob-dl",
 	"version": "0.0.0-dev",
-	"description": "A simple library to download a blob",
+	"description": "A simple library to download a Blob from the browser as a file.",
 	"license": "MIT",
 	"author": {
 		"name": "Edoardo Scibona",
@@ -9,10 +9,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/velut/download-blob.git"
+		"url": "https://github.com/velut/blob-dl.git"
 	},
 	"bugs": {
-		"url": "https://github.com/velut/download-blob/issues"
+		"url": "https://github.com/velut/blob-dl/issues"
 	},
 	"keywords": [
 		"download",

@@ -13,7 +13,7 @@
  * Basic usage:
  *
  * ```typescript
- * import { downloadBlob } from 'download-blob';
+ * import { downloadBlob } from 'blob-dl';
  *
  * // Create a blob.
  * let blob = new Blob(['Hello, world!'], { type: 'text/plain' });
